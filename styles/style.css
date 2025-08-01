@@ -56,3 +56,37 @@ p {
   font-size: 18px;
   font-weight: medium;
 }
+
+.btn-branding:hover {
+  border: 1px solid var(--color-secondary);
+}
+
+.btn-branding-outline {
+  color: var(--color-secondary);
+  border: 1px solid var(--color-secondary);
+  margin-top: 24px;
+  padding: 20px 30px;
+  font-size: 18px;
+  font-weight: medium;
+}
+
+.btn-branding-outline:hover {
+  color: white;
+  background-color: var(--color-secondary);
+}
+
+.description h2 {
+  font-size: 64px;
+}
+
+.description p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+@media (max-width: 760px) {
+  .container {
+    text-align: center;
+  }
+}
