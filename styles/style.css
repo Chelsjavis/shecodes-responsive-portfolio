@@ -90,7 +90,7 @@ p {
   margin: 0;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 768px) {
   .hero {
     padding: 50px 30px;
   }
@@ -105,6 +105,24 @@ p {
 
   .container {
     text-align: center;
+  }
+
+  .container h2 {
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero {
+    padding: 50px 30px;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+  }
+
+  .hero p {
+    font-size: 24px;
   }
 
   .container h2 {
