@@ -52,6 +52,35 @@ p {
   margin: 0;
 }
 
+.about-container {
+  margin: 0 50px;
+}
+.about-hero h1 {
+  font-size: 64px;
+}
+
+.about-hero p {
+  margin: 0;
+}
+
+.about-hero-content {
+  margin: 50px 30px 20px 30px;
+}
+
+.underline {
+  text-decoration: solid underline 2px var(--color-secondary);
+  line-height: 3;
+  text-underline-offset: 8px;
+}
+
+.about-img {
+  padding: 30px;
+}
+
+.biography {
+  margin: 0 30px;
+}
+
 .btn-branding {
   background-color: var(--color-secondary);
   color: white;
