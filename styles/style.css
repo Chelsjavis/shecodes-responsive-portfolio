@@ -65,7 +65,7 @@ p {
 }
 
 .secondary-container p {
-  margin: 0;
+  margin: 20px 0 0 0;
   font-size: 14px;
 }
 
@@ -129,6 +129,14 @@ p {
   font-size: 16px;
   line-height: 30px;
   font-weight: normal;
+  margin: 0;
+}
+
+.contact a {
+  color: var(--color-secondary);
+}
+
+.contact p {
   margin: 0;
 }
 
