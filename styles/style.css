@@ -29,7 +29,11 @@ p {
 }
 
 nav {
-  margin: 15px 50px;
+  padding: 15px 50px;
+  position: sticky;
+  top: 0px;
+  background-color: #fff;
+  border-bottom: 8px solid var(--color-primary);
 }
 
 nav ul {
