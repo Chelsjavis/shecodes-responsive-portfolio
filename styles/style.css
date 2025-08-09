@@ -28,6 +28,36 @@ p {
   font-weight: 500;
 }
 
+nav {
+  margin: 15px 50px;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  padding-top: 8px;
+}
+
+nav li {
+  display: inline;
+  margin-left: 10px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+nav a.active,
+nav li a:hover {
+  color: var(--color-secondary);
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 28px;
+}
+
 .hero {
   background-color: var(--color-primary);
   text-align: center;
@@ -140,7 +170,7 @@ p {
   margin: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .hero {
     padding: 50px 30px;
   }
@@ -153,16 +183,21 @@ p {
     font-size: 24px;
   }
 
-  .container {
+  .main-container {
     text-align: center;
   }
 
-  .container h2 {
+  .main-container h2 {
     font-size: 36px;
+  }
+
+  nav ul {
+    font-size: 12px;
+    margin: 0 auto;
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
   .hero {
     padding: 50px 30px;
   }
@@ -175,7 +210,7 @@ p {
     font-size: 24px;
   }
 
-  .container h2 {
+  .main-container h2 {
     font-size: 36px;
   }
 }
