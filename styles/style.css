@@ -52,21 +52,34 @@ p {
   margin: 0;
 }
 
-.about-container {
-  margin: 0 50px;
+.secondary-container {
+  margin: 0 100px;
 }
-.about-hero h1 {
+.secondary-container h1 {
   font-size: 64px;
 }
 
-.about-hero p {
-  margin: 0;
+.secondary-container h3 {
+  font-family: var(--font-family-default);
+  font-size: 24px;
 }
 
-.about-hero-content {
+.secondary-container p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.secondary-hero-content {
   margin: 50px 30px 20px 30px;
 }
 
+.gallery {
+  padding: 20px 40px;
+}
+
+.heading-restrict {
+  max-width: 700px;
+}
 .underline {
   text-decoration: solid underline 2px var(--color-secondary);
   line-height: 3;
