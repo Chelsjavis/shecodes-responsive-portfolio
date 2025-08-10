@@ -19,17 +19,30 @@ h6 {
   font-weight: bold;
 }
 
-h4 {
-  font-size: 24px;
+h1 {
+  font-size: 96px;
 }
 
-img {
-  pointer-events: none;
+h2 {
+  font-size: 64px;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+h4 {
+  font-size: 24px;
 }
 
 p {
   font-family: var(--font-family-default);
   font-weight: 500;
+  font-size: 16px;
+}
+
+img {
+  pointer-events: none;
 }
 
 nav {
@@ -69,11 +82,7 @@ nav li a:hover {
 .hero {
   background-color: var(--color-primary);
   text-align: center;
-  padding: 250px 30px 100px 30px;
-}
-
-.hero h1 {
-  font-size: 96px;
+  padding: 180px 30px 100px 30px;
 }
 
 .hero h2 {
@@ -90,19 +99,24 @@ nav li a:hover {
   margin: 0;
 }
 
-.secondary-container {
-  margin: 0 100px;
-}
-.secondary-container h1 {
+.secondary-container-content h1 {
   font-size: 64px;
 }
 
-.secondary-container h3 {
+.secondary-container-content h2 {
+  font-family: var(--font-family-default);
+  font-size: 24px;
+  font-weight: normal;
+  color: #272142;
+  margin: 24px 0;
+}
+
+.secondary-container-content h3 {
   font-family: var(--font-family-default);
   font-size: 24px;
 }
 
-.secondary-container p {
+.secondary-container-content p {
   margin: 20px 0 0 0;
   font-size: 14px;
 }
@@ -159,10 +173,6 @@ nav li a:hover {
   background-color: var(--color-secondary);
 }
 
-.description h2 {
-  font-size: 64px;
-}
-
 .description p {
   font-size: 16px;
   line-height: 30px;
@@ -182,6 +192,10 @@ footer {
   margin: 50px 0;
 }
 
+footer p {
+  font-size: 18px;
+}
+
 footer .contact-box {
   background-color: var(--color-primary);
   padding: 40px 80px;
@@ -189,7 +203,7 @@ footer .contact-box {
 }
 
 footer .contact-box .btn {
-  margin-top: 0;
+  margin-top: 20px;
 }
 
 footer .email-link a {
@@ -221,30 +235,44 @@ footer .social-icons a:hover {
   background-color: var(--color-secondary);
 }
 
+.contact-footer {
+  margin-top: 200px;
+}
+
 @media (max-width: 767px) {
   .hero {
     padding: 50px 30px;
   }
 
-  .hero h1 {
-    font-size: 48px;
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 32px;
+  }
+
+  nav ul {
+    font-size: 14px;
+    margin: 0 auto;
   }
 
   .hero p {
-    font-size: 24px;
+    font-size: 36px;
   }
 
+  .hero h2 {
+  }
   .main-container {
     text-align: center;
   }
 
-  .main-container h2 {
-    font-size: 36px;
-  }
-
-  nav ul {
-    font-size: 12px;
-    margin: 0 auto;
+  .secondary-container-content h1 {
+    font-size: 48px;
   }
 }
 
@@ -253,15 +281,11 @@ footer .social-icons a:hover {
     padding: 50px 30px;
   }
 
-  .hero h1 {
-    font-size: 48px;
+  h1 {
+    font-size: 56px;
   }
 
-  .hero p {
-    font-size: 24px;
-  }
-
-  .main-container h2 {
+  h2 {
     font-size: 36px;
   }
 }
