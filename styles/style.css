@@ -193,7 +193,12 @@ footer {
 }
 
 footer p {
-  font-size: 18px;
+  font-size: 12px;
+  text-align: center;
+}
+
+footer p a {
+  color: var(--color-secondary);
 }
 
 footer .contact-box {
